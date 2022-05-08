@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Repulo</string>
+    <string name="bejelentkezes">Bejelentkezés</string>
+    <string name="felhasznalonev">Felhasznalónév</string>
+    <string name="jelszo">Jelszó</string>
+    <string name="belepes">Belépés</string>
+    <string name="regisztracio">Regisztráció</string>
+    <string name="bejelentkezes_google_fiokkal">Bejelentkezés google fiókkal:</string>
+    <string name="email">Email</string>
+    <string name="jelszo_megerositese">Jelszó megerősítése</string>
+    <string name="telefonszam">Telefonszám</string>
+    <string name="kotojel">-</string>
+    <string name="visszaváltás">Visszaváltás</string>
+    <string name="utazasDatuma">Utazás dátuma:</string>
+    <string name="szekszam">Székszám:</string>
+    <string name="modositas">Módosítás</string>
+    <string name="kereses">Keresés</string>
+    <string name="kijelentkezes">Kijelentkezés</string>
+    <string name="jegyeim">Jegyeim</string>
+    <string name="elerhetoJaratok">Elérhető járatok</string>
+    <string name="vissza">Vissza</string>
+    <string name="foglalas">Foglalás</string>
+    <string name="admin">Admin belépés</string>
+    <string name="reszletek">Részletek</string>
+    <string name="torles">Törlés</string>
+    <string name="vevoazon">Vevő azonosító:</string>
+    <string name="ujJarat">Új járat</string>
+    <string name="honnan">Honnan:</string>
+    <string name="hova">Hova:</string>
+    <string name="jegyTipus">Jegy típus:</string>
+    <string name="fapados">fapados</string>
+    <string name="elsoOsztaly">Első osztály</string>
+    <string name="business">Business</string>
+    <string name="datum">Indulási idő:</string>
+    <string name="vevoId">Vevő azonosító:</string>
+    <string name="ferohely">Férőhely:</string>
+    <string name="mentes">Ment</string>
+
+    <string-array name="gyerekekSzama">
+        <item>0 gyerek</item>
+        <item>1 gyerek</item>
+        <item>2 gyerek</item>
+        <item>2+ gyerek</item>
+    </string-array>
+</resources>

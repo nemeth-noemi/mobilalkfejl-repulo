@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".JegyItemAdapter"
+    android:padding="5dp"
+    android:backgroundTint="@color/jegyBackground"
+    android:layout_margin="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/honnan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:textColor="@color/gombBackground"
+            android:text="Budapest" />
+
+        <TextView
+            android:id="@+id/honnanHovaOsszekoto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/honnan"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:textSize="30dp"
+            android:textColor="@color/gombBackground"
+            android:text="@string/kotojel" />
+
+        <TextView
+            android:id="@+id/hova"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/honnanHovaOsszekoto"
+            android:text="London"
+            android:textColor="@color/gombBackground"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/szekszamText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/honnan"
+            android:layout_marginTop="10dp"
+            android:text="@string/szekszam" />
+
+        <TextView
+            android:id="@+id/szekSzam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/honnan"
+            android:layout_toEndOf="@id/szekszamText"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="5dp"
+            android:text="12" />
+
+        <TextView
+            android:id="@+id/osztaly"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/szekszamText"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="-10dp"
+            android:text="Első osztály" />
+
+        <TextView
+            android:id="@+id/utazasiDatumText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/szekszamText"
+            android:layout_marginTop="10dp"
+            android:text="@string/utazasDatuma"/>
+
+        <TextView
+            android:id="@+id/utazasiDatum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/szekszamText"
+            android:layout_toEndOf="@id/utazasiDatumText"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="5dp"
+            android:text="2022.06.04. 14:00" />
+
+        <Button
+            android:id="@+id/jegyItemGomb"
+            android:layout_width="wrap_content"
+            android:layout_below="@id/utazasiDatumText"
+            android:layout_height="35dp"
+            android:layout_alignParentEnd="true"
+            android:textSize="10dp"
+            android:backgroundTint="@color/gombBackground"
+            android:layout_marginTop="-40dp"
+            android:textColor="@color/gombTextColor"
+            android:text="@string/modositas"
+
+            android:visibility="invisible"/>
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

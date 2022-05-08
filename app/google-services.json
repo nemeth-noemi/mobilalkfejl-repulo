@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "937480770173",
+    "project_id": "repulo-non",
+    "storage_bucket": "repulo-non.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:937480770173:android:638751bb04519c09fe9714",
+        "android_client_info": {
+          "package_name": "com.example.repulo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "937480770173-628159elss7tiha3vavjd5n2pg6r0c14.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZfW0Zt2wt2bZQ6cMl87e2h8G2nysh_rs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "937480770173-628159elss7tiha3vavjd5n2pg6r0c14.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/belepesFelirat"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="150dp"
+            android:ems="10"
+            android:text="@string/bejelentkezes"
+            android:textAlignment="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.225" />
+
+        <EditText
+            android:id="@+id/emailEditText"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="150dp"
+            android:ems="10"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/belepesFelirat"
+            app:layout_constraintVertical_bias="0.153" />
+
+        <EditText
+            android:id="@+id/jelszoEditText"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="150dp"
+            android:ems="10"
+            android:hint="@string/jelszo"
+            android:inputType="textPassword"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/emailEditText"
+            app:layout_constraintVertical_bias="0.141" />
+
+        <Button
+            android:id="@+id/belepesGomb"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:onClick="belepes"
+            android:text="@string/belepes"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/jelszoEditText"
+            app:layout_constraintVertical_bias="0.078" />
+
+        <Button
+            android:id="@+id/regisztraciGomb"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:onClick="regisztracio"
+            android:text="@string/regisztracio"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/belepesGomb"
+            app:layout_constraintVertical_bias="0.081" />
+
+        <Button
+            android:id="@+id/adminGomb"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:onClick="adminBelepes"
+            android:text="@string/admin"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/regisztraciGomb"
+            app:layout_constraintVertical_bias="0.081" />
+
+        <TextView
+            android:id="@+id/googleBelepesGomb"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/bejelentkezes_google_fiokkal"
+            android:textAlignment="center"
+            android:visibility="invisible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/adminGomb" />
+
+
+        <ImageView
+            android:id="@+id/GoogleKepButton"
+            android:layout_width="90dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="5dp"
+            android:onClick="belepesGoogle"
+            android:scaleType="fitXY"
+            android:src="@drawable/google"
+            android:text="@string/bejelentkezes_google_fiokkal"
+            android:visibility="invisible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/googleBelepesGomb" />
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

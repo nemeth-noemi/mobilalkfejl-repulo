@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/kereses"
+        android:title="@string/kereses"
+        android:icon="@drawable/ic_search"
+        app:showAsAction="ifRoom"
+        app:actionViewClass="android.widget.SearchView"
+        />
+
+    <item
+        android:id="@+id/jegyeim"
+        android:title="@string/jegyeim"
+        android:icon="@drawable/ic_airplane_ticket"
+        app:showAsAction="never"
+
+        app:actionViewClass="android.widget.SearchView"
+        />
+    <item
+        android:id="@+id/jaratok"
+        android:title="@string/elerhetoJaratok"
+        android:icon="@drawable/ic_airplane"
+        app:showAsAction="never"
+        app:actionViewClass="android.widget.SearchView"
+        />
+
+    <item
+        android:id="@+id/kijelentkezes"
+        android:title="@string/kijelentkezes"
+        app:showAsAction="never"
+        app:actionViewClass="android.widget.Button"
+        />
+</menu>

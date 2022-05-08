@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".JaratRMU">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/honnanText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/honnan"
+                android:textColor="@color/gombBackground"
+                android:textSize="30sp" />
+
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="45dp"
+                android:layout_marginStart="10dp"
+                android:id="@+id/honnan"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/hovaText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hova"
+                android:textColor="@color/gombBackground"
+                android:textSize="30sp" />
+
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="45dp"
+                android:layout_marginStart="10dp"
+                android:id="@+id/hova"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/jegyTipusText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/jegyTipus"
+                android:textColor="@color/gombBackground"
+                android:textSize="30sp" />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/jegyTipusGroup">
+
+                <RadioButton
+                    android:id="@+id/fapadosRButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/fapados"/>
+
+                <RadioButton
+                    android:id="@+id/elsoOsztalyRButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/elsoOsztaly"/>
+
+                <RadioButton
+                    android:id="@+id/businessRButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/business"/>
+            </RadioGroup>
+        </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/datumText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/datum"
+                android:textColor="@color/gombBackground"
+                android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/indulasiIdo"
+            android:layout_width="382dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="2022-01-01T12:00"
+            android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/vevoIdText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/vevoId"
+                android:textColor="@color/gombBackground"
+                android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/vevoId"
+            android:layout_width="383dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="10dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/ferohelyText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ferohely"
+                android:textColor="@color/gombBackground"
+                android:textSize="30sp" />
+
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="45dp"
+                android:layout_marginStart="10dp"
+                android:id="@+id/ferohely"
+                android:inputType="number"
+                />
+        </LinearLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/mentesGomb"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:backgroundTint="@color/gombBackground"
+                android:text="@string/mentes"
+                android:textColor="@color/gombTextColor"
+                android:textSize="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:ignore="MissingConstraints" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+</ScrollView>
